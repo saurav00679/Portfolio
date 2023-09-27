@@ -1,0 +1,115 @@
+
+section{
+    margin-bottom: 30px;;
+}
+.header{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.header img{
+    border-radius: 50%;
+    margin: 40px;
+}
+.header img:hover{
+    transform: scale(1.1);
+}
+.intro{
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.intro span{
+    color: blue;
+}
+
+.education{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+}
+.education h3{
+    color: purple;
+}
+.education div:hover{
+    transform: scale(1.1);
+}
+.skills{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 25px;
+}
+.skills div{
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+}
+.skills div:hover{
+    transform: scale(1.1);
+}
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+.projects div{
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+}
+.projects div:hover{
+    transform: scale(1.1);
+}
+.projects h3{
+    color: purple;
+}
+.contact-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Mooli', sans-serif;
+    margin: 30px;
+    color: green;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+footer{
+    position: fixed;
+    height: 95vh;
+    width: 50%;
+}
+.sm-img{
+    height: 25px;
+    width: 25px;
+}
+.icons{
+    margin: -40px;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    margin-top: -50px;
+}
